@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        header {
+
+            width: 90%;
+
+            height: 100px;
+
+            background-color: #86ddff;
+
+            border: 3px solid #6e70ff;
+
+            padding: 10px;
+
+            margin: 25px;
+
+        }
+
+
+
+        nav {
+
+            position: fixed;
+
+            width: 90%;
+
+            height: 50px;
+
+            background-color: #a3a535;
+
+            position: fixed;
+
+            top: 170px;
+
+            left: 35px;
+
+        }
+
+
+
+        article {
+
+            width: 65%;
+
+            height: 200px;
+
+            background-color: #d4735b;
+
+            border: 5px dashed #4b7a35;
+
+            position: relative;
+
+            top: 15px;
+
+        }
+
+
+
+        aside {
+
+            width: 40%;
+
+            height: 420px;
+
+            background-color: #d45bce;
+
+            position: absolute;
+
+            left: 50%;
+
+            right: 10%;
+
+            top: 235px;
+            
+
+        }
+
+
+
+        footer {
+
+            width: 100%;
+
+            height: 50px;
+
+            background-color: #a53535;
+
+            position: fixed;
+
+            bottom: 0px;
+
+        }
+
+
+
+        .articles {
+
+            position: relative;
+
+            left: 30px;
+
+            top: 45px;
+
+            width: 65%;
+
+            height: 70%;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header><P>The header will default to the top and be first since it listed first.  There is also no position 
+    </P></header>
+
+    <nav><p>The nav bar is placed below the header so it is next.  its in a fixed position so it will be in the same spot even if the page is scrolled and it
+        can be positioned by ay angle.  It is most commonly placed under the header.
+    </p></nav>
+
+    <div>
+
+        <div class="articles">
+
+            <article><p>This article uses relative positioning so it relative to the normal position.  If you set at any position.  The information was set via the code such as left: 30px, top:40px, width: 65%, and height: 70%.  
+            </p></article>
+
+            <article>This article uses relative positioning .  If you set at any angle it will adjust to it.  The information was: 30px, top:40px, width: 65%, and height: 70%. 
+                </article>
+
+        </div>
+
+    <aside><p>This side is a sidebar. The information provided to the tag is where it will be placed.  can be used at any angle.
+    </p></aside>
+
+    </div>
+
+    <footer><p>The footer is placed towards the bottom of the page.  The width, height, color, position, etc. can be changed
+        Its also using the fixed position while being moved up and down left or right.
+    </p></footer>
+
+</body>
+</html>
